@@ -226,174 +226,101 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 21 (Dare to Stand Out) — so your next new pin should be 22.
+   is 24 (Spooky Nights, Sweet Dreams) — so your next new pin should be 25.
    ========================================================================= */
 
 const boards = [
   {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      {
-        image: "assets/dare-to-stand-out.jpg",
-        title: "Dare to Stand Out",
-        addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ]
-      },
-      {
-        image: "assets/chic-confident.jpg",
-        title: "Chic, Confident, Effortlessly You",
-        addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ]
-      },
-      {
-        image: "assets/effortless-elevated.jpg",
-        title: "Effortless & Elevated",
-        addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ]
-      }
-    ]
-  },
-  {
-    name: "Beauty Tips & Education",
-    pins: [
-      {
-        image: "assets/flawless-base.jpg",
-        title: "Flawless Base: 3 Rules for Streak-Free Foundation",
-        addedOrder: 20,
-        products: [ { label: "Shop This Post", url: "flawless-base.html" } ]
-      },
-      {
-        image: "assets/festival-glam-rock.jpg",
-        title: "Festival Glam Rock: Smoky Eye, Decoded",
-        addedOrder: 16,
-        products: [ { label: "Shop This Post", url: "festival-glam-rock.html" } ]
-      },
-      {
-        image: "assets/portable-beauty.jpg",
-        title: "5 Portable Beauty Essentials",
-        addedOrder: 14,
-        products: [ { label: "Shop This Post", url: "portable-beauty-essentials.html" } ]
-      },
-      {
-        image: "assets/scent-stacking.jpg",
-        title: "Scent Stacking: The Fragrance Trend",
-        addedOrder: 11,
-        products: [ { label: "Shop This Post", url: "scent-stacking.html" } ]
-      },
-      {
-        image: "assets/soft-glow.jpg",
-        title: "Soft Glow Finishers: How to Add Luminosity",
-        addedOrder: 8,
-        products: [ { label: "Shop This Post", url: "soft-glow-finishers.html" } ]
-      }
-    ]
-  },
-  {
-    name: "The Essential Wardrobe",
-    pins: [
-      {
-        image: "assets/capsule-wardrobe.jpg",
-        title: "The Capsule Summer Wardrobe",
-        addedOrder: 18,
-        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ]
-      }
-    ]
-  },
-  {
-    name: "Shop the Look Kids",
-    pins: [
-      {
-        image: "assets/mini-style.jpg",
-        title: "Mini Style, Major Charm",
-        addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ]
-      }
-    ]
-  },
-  {
-    name: "Summer Outfits Amazon",
-    pins: [
-      {
-        image: "assets/floral-rules.jpg",
-        title: "Rules for Wearing Florals",
-        addedOrder: 17,
-        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ]
-      },
-      {
-        image: "assets/elevated-athleisure.jpg",
-        title: "Elevated Athleisure: The One-Piece Dress",
-        addedOrder: 10,
-        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ]
-      },
-      {
-        image: "assets/elevated-tracksuits.jpg",
-        title: "4 Elevated Tracksuits for the Sport-Luxe Trend",
-        addedOrder: 6,
-        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ]
-      }
-    ]
-  },
-  {
     name: "Shop the Look",
     pins: [
-      {
-        image: "assets/chic-power-look.jpg",
-        title: "The Chic Power Look",
-        addedOrder: 15,
-        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ]
-      },
-      {
-        image: "assets/elegant-green-dress.jpg",
-        title: "Effortlessly Elegant Green Dress",
-        addedOrder: 13,
-        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ]
-      },
-      {
-        image: "assets/effortlessly-chic.jpg",
-        title: "Effortlessly Chic",
-        addedOrder: 9,
-        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ]
-      },
-      {
-        image: "assets/effortless-style.jpg",
-        title: "Effortless Style, Every Day",
-        addedOrder: 7,
-        products: [ { label: "Shop This Post", url: "effortless-style.html" } ]
-      },
-      {
-        image: "assets/cute-comfortable.jpg",
-        title: "Cute, Comfortable & On-the-Go",
-        addedOrder: 2,
-        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ]
-      }
-    ]
-  },
-  {
-    name: "Timeless Accessories",
-    pins: [
-      {
-        image: "assets/investment-bag.jpg",
-        title: "The Structured Handbag: One Investment Piece",
-        addedOrder: 4,
-        products: [ { label: "Shop This Post", url: "one-investment-piece.html" } ]
-      }
+      { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
+        products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
+      { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
+        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ] },
+      { image: "assets/elegant-green-dress.jpg", title: "Effortlessly Elegant Green Dress", addedOrder: 13,
+        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ] },
+      { image: "assets/effortlessly-chic.jpg", title: "Effortlessly Chic", addedOrder: 9,
+        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ] },
+      { image: "assets/effortless-style.jpg", title: "Effortless Style, Every Day", addedOrder: 7,
+        products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
+      { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
+        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
     ]
   },
   {
     name: "Amazon Beauty Finds",
     pins: [
-      {
-        image: "assets/bag-ready.jpg",
-        title: "4 Bag-Ready Summer Beauty Essentials",
-        addedOrder: 3,
-        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ]
-      },
-      {
-        image: "assets/lip-liner.jpg",
-        title: "The Lip Liner Everyone Is Buying",
-        addedOrder: 1,
-        products: [ { label: "Shop This Post", url: "lip-liner.html" } ]
-      }
+      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
+        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
+      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
+        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
+      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
+        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
+    ]
+  },
+  {
+    name: "Color & Trend Edit",
+    pins: [
+      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
+        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
+  {
+    name: "Beauty Tips & Education",
+    pins: [
+      { image: "assets/flawless-base.jpg", title: "Flawless Base: 3 Rules for Streak-Free Foundation", addedOrder: 20,
+        products: [ { label: "Shop This Post", url: "flawless-base.html" } ] },
+      { image: "assets/festival-glam-rock.jpg", title: "Festival Glam Rock: Smoky Eye, Decoded", addedOrder: 16,
+        products: [ { label: "Shop This Post", url: "festival-glam-rock.html" } ] },
+      { image: "assets/portable-beauty.jpg", title: "5 Portable Beauty Essentials", addedOrder: 14,
+        products: [ { label: "Shop This Post", url: "portable-beauty-essentials.html" } ] },
+      { image: "assets/scent-stacking.jpg", title: "Scent Stacking: The Fragrance Trend", addedOrder: 11,
+        products: [ { label: "Shop This Post", url: "scent-stacking.html" } ] },
+      { image: "assets/soft-glow.jpg", title: "Soft Glow Finishers: How to Add Luminosity", addedOrder: 8,
+        products: [ { label: "Shop This Post", url: "soft-glow-finishers.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "The Essential Wardrobe",
+    pins: [
+      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
+        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
+    ]
+  },
+  {
+    name: "Summer Outfits Amazon",
+    pins: [
+      { image: "assets/floral-rules.jpg", title: "Rules for Wearing Florals", addedOrder: 17,
+        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ] },
+      { image: "assets/elevated-athleisure.jpg", title: "Elevated Athleisure: The One-Piece Dress", addedOrder: 10,
+        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
+      { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
+        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
+    ]
+  },
+  {
+    name: "Timeless Accessories",
+    pins: [
+      { image: "assets/investment-bag.jpg", title: "The Structured Handbag: One Investment Piece", addedOrder: 4,
+        products: [ { label: "Shop This Post", url: "one-investment-piece.html" } ] }
     ]
   }
 ];
