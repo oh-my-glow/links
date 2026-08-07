@@ -226,13 +226,15 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 24 (Spooky Nights, Sweet Dreams) — so your next new pin should be 25.
+   is 27 (Halloween Looks) — so your next new pin should be 28.
    ========================================================================= */
 
 const boards = [
   {
     name: "Shop the Look",
     pins: [
+      { image: "assets/halloween-looks.jpg", title: "Halloween Looks", addedOrder: 27,
+        products: [ { label: "Shop This Post", url: "halloween-looks.html" } ] },
       { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
         products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
       { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
@@ -245,6 +247,32 @@ const boards = [
         products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
       { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
         products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
+        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
+  {
+    name: "Summer Outfits Amazon",
+    pins: [
+      { image: "assets/leather-vs-vegan.jpg", title: "Leather vs. Vegan Leather", addedOrder: 25,
+        products: [ { label: "Shop This Post", url: "leather-vs-vegan-leather.html" } ] },
+      { image: "assets/floral-rules.jpg", title: "Rules for Wearing Florals", addedOrder: 17,
+        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ] },
+      { image: "assets/elevated-athleisure.jpg", title: "Elevated Athleisure: The One-Piece Dress", addedOrder: 10,
+        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
+      { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
+        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
     ]
   },
   {
@@ -263,17 +291,6 @@ const boards = [
     pins: [
       { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
         products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
-      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
-      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
     ]
   },
   {
@@ -303,17 +320,6 @@ const boards = [
     pins: [
       { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
         products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
-    ]
-  },
-  {
-    name: "Summer Outfits Amazon",
-    pins: [
-      { image: "assets/floral-rules.jpg", title: "Rules for Wearing Florals", addedOrder: 17,
-        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ] },
-      { image: "assets/elevated-athleisure.jpg", title: "Elevated Athleisure: The One-Piece Dress", addedOrder: 10,
-        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
-      { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
-        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
     ]
   },
   {
