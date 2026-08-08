@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>The European Dinner Look | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/european-dinner-look.jpg" alt="The European Dinner Look: 4 Pieces, Effortlessly Elevated">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>The European Dinner Look</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/ANRABESS-Sleeveless-Fashion-Racerback-Blouses/dp/B0CPPFB8CB?crid=4FX1BG90MFV3&dib=eyJ2IjoiMSJ9.q7nQxSLdFqBTBZpYojV9ol2tGeAVnWZr-r6Ke8BJ9kA6V266BegrKOVUFBXQQ4-ZSk_XAq3VSEpAVzA6Db4IsfHOahcwxtJPyQndXxXf7StVBg0JXvAmYPS_8PctxRWak6LNyRbr-Sy_rq3nsw86iev9stP-b5eQrWYljeXzP6ni0byOQH2iARobLrZ-9j05Yq9gWUBUycZhaJHXO486TUawtbEQEIxrD0NvPYFZX14D_iMRm3BQqYP_MyoctfTwGlnWYJm07LkNvOuafHyEG4NeoaUCpliosBxSBQ_PqvE.GGaV96d9NEE8aLgfWqrEehWHpNtyuufX6hKhr8LfdSI&dib_tag=se&keywords=white%2Bribbed%2Bfitted%2Btank%2Btop&qid=1786057829&sprefix=white%2Bribbed%2Bfitted%2Btank%2Btop%2Caps%2C377&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=7d1373e8f3e1d8fe31dad0929e8f92e1&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Ribbed Racerback Tank</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Modegal-Womens-Waisted-Ruffle-Leopard/dp/B08TM6WFB6?crid=3N45S4S8ZHYDZ&dib=eyJ2IjoiMSJ9.02sMDGa73nG9y5gAXb_UitIb042jnFxF7XiLptyxM3tHt8E2AQiU7JLFDr8TF0ocEGljy19m9j00xwPjfF5mg1ZUlMZ8KdJIHr5_gBgmjImkWy8xNYe2Kguojpu7D1_qWnlVr0UZ2zn6Vj4tAcCF2EYD3SK2q7Qyy5anD25srzmDZqSDw2M9F6Z6Ohx48MMIRGXnMtm0Huzf_RmdJWrCNvg5V3pBHCw3VhNrXffmc_dkwEdS6DqarK1LdyeGDqqFNttgj5whuIYkTzAJ6pEagIZPI7Qoklza4uydoRV9J2s.zTt0Wo7cY5bcSSs7yEn6ZAvMMTKrJpwf7xdDrLGkXkw&dib_tag=se&keywords=satin%2Bslip%2Bskirt%2Bblack&qid=1786058886&sprefix=satin%2Bslip%2Bskirt%2Bblack%2Caps%2C554&sr=8-5&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=3e7afa00b2c3ba73d94885eb7e6b209c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Satin Midi Skirt</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/FW-FRAN-WILLOR-Sandals-Comfortable/dp/B0D7S7ZKP5?crid=18Y80BQD4DAJL&dib=eyJ2IjoiMSJ9.euNUVxNGxT3Nc5GLE5c7o03uDMdtRe1qcVM0B2CyMsrP_J-IB3DdF6fFbHoEm1TdqoV6H-AD3LpPmljM3trcV4d1fHpWZHt0V7wwvfoK90vqA_rMauztHHvKkhX5j1ODdDTOBQjnwv2hoePr_G-_eWq5_oSZxldp-IpoCubcgfgpPnqjJBpc8u5Q9XBVrCNdM--5gPPmps6Rwl1p8vQI4PQhRsMVmAwzhw-u1VLd0kaPBFOx0kKXAk-X043rMd7z8Gp9b9TvAkwMYM2hhL1sC-1-nNUDAtOBhzR1dH25ECg.w_yiomKHvvKXESrcY06jNJApPPe1dIt5RosGtRSoQjM&dib_tag=se&keywords=flat%2Bstrappy%2Bleather%2Bsandals&qid=1786057984&sprefix=flat%2Bstrappy%2Bleather%2Bsandals%2Caps%2C597&sr=8-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=0d8a687873af0b98f49b437ff5a0a48f&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Flat Sandals</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0D2H55LJ6?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2SE4K02P9J5OM&linkCode=tr1&tag=ohmyglow04-20&linkId=amzn1.campaign.2SE4K02P9J5OM_1786150823640" target="_blank" rel="noopener sponsored">Shop the Top Handle Bag</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
