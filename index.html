@@ -226,10 +226,80 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 27 (Halloween Looks) — so your next new pin should be 28.
+   is 33 (5 Pieces for the In-Between) — so your next new pin should be 34.
    ========================================================================= */
 
 const boards = [
+  {
+    name: "The Essential Wardrobe",
+    pins: [
+      { image: "assets/pieces-for-the-in-between.jpg", title: "5 Pieces for the In-Between", addedOrder: 33,
+        products: [ { label: "Shop This Post", url: "pieces-for-the-in-between.html" } ] },
+      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
+        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
+        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "Color & Trend Edit",
+    pins: [
+      { image: "assets/glitchy-glam.jpg", title: "Glitchy Glam", addedOrder: 31,
+        products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
+      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
+        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
+        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
+      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
+        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
+  {
+    name: "Summer Outfits Amazon",
+    pins: [
+      { image: "assets/european-dinner-look.jpg", title: "The European Dinner Look", addedOrder: 29,
+        products: [ { label: "Shop This Post", url: "european-dinner-look.html" } ] },
+      { image: "assets/leather-vs-vegan.jpg", title: "Leather vs. Vegan Leather", addedOrder: 25,
+        products: [ { label: "Shop This Post", url: "leather-vs-vegan-leather.html" } ] },
+      { image: "assets/floral-rules.jpg", title: "Rules for Wearing Florals", addedOrder: 17,
+        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ] },
+      { image: "assets/elevated-athleisure.jpg", title: "Elevated Athleisure: The One-Piece Dress", addedOrder: 10,
+        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
+      { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
+        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
+    ]
+  },
+  {
+    name: "Amazon Beauty Finds",
+    pins: [
+      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
+        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
+      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
+        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
+      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
+        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
+      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
+        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
+    ]
+  },
   {
     name: "Shop the Look",
     pins: [
@@ -250,50 +320,6 @@ const boards = [
     ]
   },
   {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
-        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
-      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
-      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
-      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
-    ]
-  },
-  {
-    name: "Summer Outfits Amazon",
-    pins: [
-      { image: "assets/leather-vs-vegan.jpg", title: "Leather vs. Vegan Leather", addedOrder: 25,
-        products: [ { label: "Shop This Post", url: "leather-vs-vegan-leather.html" } ] },
-      { image: "assets/floral-rules.jpg", title: "Rules for Wearing Florals", addedOrder: 17,
-        products: [ { label: "Shop This Post", url: "rules-for-wearing-florals.html" } ] },
-      { image: "assets/elevated-athleisure.jpg", title: "Elevated Athleisure: The One-Piece Dress", addedOrder: 10,
-        products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
-      { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
-        products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
-    ]
-  },
-  {
-    name: "Amazon Beauty Finds",
-    pins: [
-      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
-        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
-      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
-        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
-      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
-        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
-    ]
-  },
-  {
-    name: "Color & Trend Edit",
-    pins: [
-      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
-        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
-    ]
-  },
-  {
     name: "Beauty Tips & Education",
     pins: [
       { image: "assets/flawless-base.jpg", title: "Flawless Base: 3 Rules for Streak-Free Foundation", addedOrder: 20,
@@ -306,20 +332,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "scent-stacking.html" } ] },
       { image: "assets/soft-glow.jpg", title: "Soft Glow Finishers: How to Add Luminosity", addedOrder: 8,
         products: [ { label: "Shop This Post", url: "soft-glow-finishers.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look Kids",
-    pins: [
-      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
-    ]
-  },
-  {
-    name: "The Essential Wardrobe",
-    pins: [
-      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
-        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
     ]
   },
   {
