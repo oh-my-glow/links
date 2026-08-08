@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>Glitchy Glam: Symmetry Is Optional | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/glitchy-glam.jpg" alt="Glitchy Glam: Symmetry Is Optional">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>Glitchy Glam</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/NYX-PROFESSIONAL-MAKEUP-Ultimate-Palette/dp/B07KBD7KQY?dib=eyJ2IjoiMSJ9.qh9ADMPqPqaFyyW2gRxmHsuoXwW00xVS27PSRCbAQIidtN7-rYRugFO6CDEU3VtFXK7yX-q-J3pTLtKeRB93sWBEGYa0sMFRh12iAs_JqNL8o-MN8yrr6FGw-WuOcRl66Sipuw0Y3AmW_p-dVv4wixfAjrWh0aiNdHTSUpZiGGntTcmmocVXAogGyX_J-qMlzE3kKCp9J7WgMaf1UooX8cAbTnKpjrV9Bqg-lRajxi-qmZ_Gm_0wql_0foVKkNHoAlmX5hZMlKewoSLoLI0bMtuPoUW_ssAJ7nwO0xYqeIA.SZ2ZGBF_ZxxZ7QNN22rs5M1f2S55uTQ4l3G_es7_73E&dib_tag=se&keywords=contrast%2Beyeshadow%2Bpalette&qid=1786044582&sr=8-42&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=872174195e1d684283da7d761905c170&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Brights Mini Palette</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/NYX-PROFESSIONAL-MAKEUP-Ultimate-Eyeshadow/dp/B0C41QPKZR?crid=1AKZF6KKS2LF6&dib=eyJ2IjoiMSJ9.x9DGr7XoaRi3Tq_bu4FRB1WwhpC-kBT-kQLXwgVkPLFQByOq6aA7XSCsprbWMiRujj1r1mGxFCV1Y5IiEWt5w19sfPfujzsV-wDziTHpHnJ3Q6aKCJjrWGhJXVzm7uATGeq0Qu6LLXLWDSb_6eH7rhwyXvAEHoanAN_CVDfYTLQWAwmV73vkTYxPDHyzIPLk8oFqskDygNworINRebixj83H6sbNcb51b_B38gP9nR5g3eT9YQ0OgX2TfTVKfwfGljFn_5rBFNeUKhLyTwlPz4Soe1GYmSmMEjQI8NG_p4w.lbG5N6m-VeXbaVOwdcYBoTjWwkN8kwzjb-3xcPh0N5c&dib_tag=se&keywords=bright%2Beyeshadow%2Bpalette&qid=1786044343&sprefix=br%2Beyeshadow%2Bpalette%2Caps%2C507&sr=8-9&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=5ea893a6f94c29108fa4a030f64418de&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the I Know That's Bright Palette</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
