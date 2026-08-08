@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>Dress Up. Stand Out. | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/dress-up-stand-out.jpg" alt="Dress Up. Stand Out. Bold Costumes, Unforgettable Nights">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>Dress Up. Stand Out.</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/dp/B099T6WK4J?coliid=I2BFLPOUKGAXPF&colid=3MNVW2JNK1ZAN&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=bc8c0a4257cf81a13dfff79979248b75&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Sugar Skull Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B00BTPOHFE?coliid=I35WVQ0Q50X5HL&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=cc5757b8059f6d0629d0b39116e3a949&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Royal Red Queen Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B072QDT62B?coliid=I18BHPHV9R772N&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=fc89ecf5ef342cfc9c5207891e32e6ae&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Wonder Woman Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B004UULS8E?coliid=I2WP69RXJTPWV0&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=466e2cee606b8d3cbcc969fd5896ae5b&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Tavern Maiden Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B06Y6KDPGX?coliid=ICBJM6J0JG7KV&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=fe8520586f8e85c672ed034c301149e7&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Cruella Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B09QRPW9PN?coliid=I12AEI7FJWDCUX&colid=3MNVW2JNK1ZAN&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=c7cf0b2340d640580ae783809caf7181&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Bee Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B00UM41F0S?coliid=I2FZNVJK5KBISA&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=6a818f0305f07e63bf7560054e4ebf64&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Witch Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B00UM4OX3O?coliid=I6JBMGRYS56J6&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=18eb973263d5fc2c06911948ef2289d0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Ninja Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0C4KBNVZ2?coliid=IIH19FLDKWVB1&colid=2H8T2R79V6BIQ&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=b267cda91aa2eaf90c5c1e4a120a15ae&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Hippie Costume</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B08CKWLXS7?coliid=IOAIZDIWPOHE7&colid=3MNVW2JNK1ZAN&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=45da4357218c46c3f3ad648f6ccc85e9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Pumpkin Costume</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
