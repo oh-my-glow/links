@@ -226,10 +226,59 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 33 (5 Pieces for the In-Between) — so your next new pin should be 34.
+   is 39 (Effortlessly Elegant) — so your next new pin should be 40.
    ========================================================================= */
 
 const boards = [
+  {
+    name: "Shop the Look",
+    pins: [
+      { image: "assets/effortlessly-elegant.jpg", title: "Effortlessly Elegant", addedOrder: 39,
+        products: [ { label: "Shop This Post", url: "effortlessly-elegant.html" } ] },
+      { image: "assets/outfit-on-repeat.jpg", title: "The Outfit You'll Wear On Repeat", addedOrder: 35,
+        products: [ { label: "Shop This Post", url: "outfit-you-will-wear-on-repeat.html" } ] },
+      { image: "assets/halloween-looks.jpg", title: "Halloween Looks", addedOrder: 27,
+        products: [ { label: "Shop This Post", url: "halloween-looks.html" } ] },
+      { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
+        products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
+      { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
+        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ] },
+      { image: "assets/elegant-green-dress.jpg", title: "Effortlessly Elegant Green Dress", addedOrder: 13,
+        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ] },
+      { image: "assets/effortlessly-chic.jpg", title: "Effortlessly Chic", addedOrder: 9,
+        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ] },
+      { image: "assets/effortless-style.jpg", title: "Effortless Style, Every Day", addedOrder: 7,
+        products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
+      { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
+        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
+    ]
+  },
+  {
+    name: "Fall Outfits Amazon",
+    pins: [
+      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
+        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
+      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
+        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
+        products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
+      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
+        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
+      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
+        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
   {
     name: "The Essential Wardrobe",
     pins: [
@@ -258,21 +307,6 @@ const boards = [
     ]
   },
   {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
-        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
-      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
-        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
-      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
-      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
-      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
-    ]
-  },
-  {
     name: "Summer Outfits Amazon",
     pins: [
       { image: "assets/european-dinner-look.jpg", title: "The European Dinner Look", addedOrder: 29,
@@ -298,25 +332,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
       { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
         products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look",
-    pins: [
-      { image: "assets/halloween-looks.jpg", title: "Halloween Looks", addedOrder: 27,
-        products: [ { label: "Shop This Post", url: "halloween-looks.html" } ] },
-      { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
-        products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
-      { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
-        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ] },
-      { image: "assets/elegant-green-dress.jpg", title: "Effortlessly Elegant Green Dress", addedOrder: 13,
-        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ] },
-      { image: "assets/effortlessly-chic.jpg", title: "Effortlessly Chic", addedOrder: 9,
-        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ] },
-      { image: "assets/effortless-style.jpg", title: "Effortless Style, Every Day", addedOrder: 7,
-        products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
-      { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
-        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
     ]
   },
   {
