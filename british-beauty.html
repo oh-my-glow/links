@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>British Beauty Worth Discovering | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/british-beauty.jpg" alt="British Beauty Worth Discovering: From the UK, Perfected for You">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>British Beauty Worth Discovering</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/dp/B01DH0Q06C?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3CVZ79YZ453PL&linkCode=tr1&tag=ohmyglow04-20&linkId=amzn1.campaign.3CVZ79YZ453PL_1786762576388" target="_blank" rel="noopener sponsored">Shop the Liz Earle Cleanser</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/ICONIC-LONDON-Illuminator-Highlight-Iconic/dp/B07JPYP3XF?dib=eyJ2IjoiMSJ9.8kUHy9dIu_KPOQwW716AIABBHyzjOlK-BRSSyOIIHR4K1qZsBbcHAruRuMKmE5DS7D8b-KQyPctMe4VHWkR1BJufs2eJyv1HOse6hESAjQmZdyjOaZtXUfyHEJdeVz_5e-G4_YCrVOol_TuaNCkRSxAv3o1MgEsNFPD9zUGyV9K1GW4T0e7hwuICupCCFRoxypoOj5KdHqEjIydm27m0XqHCxBHwilsycgDovgSAEhGj1S-AmMdRGyt-x9se5SYrMHUfofE2fX9OZVgjkp8P2ZM3Yr0gA0x-sWxCR3lITcE.X2wRB9hUufCYwncuQwhrUoCDXUekAQ443b9NRIWUpR4&dib_tag=se&keywords=iconic%2Blondon&qid=1786748656&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=e8a5ee042b7ea2142ad86b40ce90035e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Iconic London Illuminator</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Charlotte-Tilbury-Airbrush-Flawless-Setting/dp/B08FF44TTY?crid=1T4H1BX7D80LD&dib=eyJ2IjoiMSJ9.ZCd6txDJwEHRGueLyOuPOJUUglFcHb5EthRnGB1zYNt_FrqQkBvWm_rRB-hBLSAXe8yA21xOcPGpoktagiNr1MgUUCDsJ-zLSvkEJoWh6LSID-A_6XUNdQCtl63Bb14DZSmwgSj-g5-i1dSVoMYdCjPueeEbSoDux6X-eW-HNoBx-t7Ljc6dWV_IpcfDpxnQ_N-G7PFh9KfYqZEMt-zT0QRyW2IrmL0wbau0O2KXrtM9G9rc12o9mxlgAK71e8zX57erD76991Lnu78t6fSahoDVk3a5HTDU30V9cOgi3fs.mqSTwzC3xYmCaYRZIDFvs2buV40-Z2xYGik6j8VELr0&dib_tag=se&keywords=Charlotte%2BTilbury&qid=1786747186&sprefix=charlotte%2Btilbury%2Caps%2C1955&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=312e250509bfc17edefea0e3d99915a0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Charlotte Tilbury Setting Spray</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/INKEY-List-Bio-Active-Ceramide-Moisturizer/dp/B0CNTKZN7F?crid=3FXLYJ5BQZWJ9&dib=eyJ2IjoiMSJ9.phVwgqkkt8l9dWlG-Iyi1edbrjHaMuLlw_av9vAu0z44TKrEwHaATI9ewq2b5ccg58vtoiRjPi7910LVAnYJA7N7NMjmAImtI8YcMEFUmaAE1bGwaYwODtc1sZBNERSmaV9ade0vmZ-4_BmtoaKcdYgmNSzoRsrRXlEpgLglGBm2hLFimO332J5fJQ7I8xOKcWLkDLuo7U9LGGVH-DEIcQYQWA-pTHEBXXhFTroirK3P-F1XoZJLrFQY9-r1loG9M1szSLQ-gDKtHp1vJIhpL7hPj1g_0DbWBiwLSrKzYAU.Sipmnmr7cTjMIhsJTNngv3dG4ItDf58InseokKGfchE&dib_tag=se&keywords=The%2BINKEY%2BList&qid=1786747321&sprefix=the%2Binkey%2Blist%2Caps%2C305&sr=8-9&linkCode=ll2&tag=ohmyglow04-20&linkId=82409a7029dbdbd724a32482f0050e14&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the INKEY List Moisturizer</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/ELEMIS-Dynamic-Resurfacing-Smoothing-Cleanser/dp/B00175W3HK?crid=2RKQ5ZH93NRTM&dib=eyJ2IjoiMSJ9._xe1-Zwi7eUfq7T5E1mgPpCkWRmvOe7eh2-dD7EsvGZCSTMyB8pLH5MKjIWpjgD5ufZij_lFfV-HPO_9O8AZKNZzA8KxftsxI9NFeAEPTP_RdWCDS5ytpD5Y1y4Y4J6H32md0P_VIyo7NL6J__TY15meOXMX1r_hltkf57dozDOvxsANdqTY3KPPhgt4h1Z9DWNhjerJcwPjlAa5jsXjB218Q6YBsEUDgBMymnL_YtHhR7zGQILFR8kuJqkAQMhw9Xe_EsQo7x4TH-E42wC4tAGJ_Sx7_SJxqk-uUyeM7DE.gb1fG127frIc8HmL9tNL9clmgG5vJ9PXVi7iDk3TtTs&dib_tag=se&keywords=Elemis&qid=1786747428&sprefix=elemis%2Caps%2C303&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=d96d79932b7834b18547c43de65066b3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Elemis Facial Wash</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Yardley-London-Soap-Bath-Bundle/dp/B0779BY2S1?dib=eyJ2IjoiMSJ9.42ZLRSLj4O1ydr0j9ioY-QsxFPHOmBt_IzQhwNkuzOnxSC6ZKrJlLJthJM7Dx1naqqC3yuFOwQpg5IPWewHpNfKXjPnh5OiXaOjCXSGq6irKRow1QM4-pafn_uLYxM_VQna6-DpQ-iEo5HLUcA9Ec_7vwvs0StqGybNy11QwqVGRUxzqvYLnae2ocSUuaHCETXKicgymRJf2ELiU-AMD10-iAnO3mwppiSzVY0mdj8TggWSB33iJS5LhTE9yszyYiHFlkEZoTQPCg5iMw95DQwhpMhSMUVnrXO4WW2sRYrM.ia5PHFlu1yO8xvDs5j9AN7XFVOlHKrAveLcJ771Ho0k&dib_tag=se&keywords=Yardley%2BLondon&qid=1786747484&sr=8-6&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=db68c320adcab6c19b2d775f65085269&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Yardley London Soap Set</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Medik8-E001-20P-006815-Liquid-Peptides-30ml/dp/B07YRY7P81?crid=2BVU6N82P8ULR&dib=eyJ2IjoiMSJ9.tfJ9_UDWaekDe6D0dmhxPxJpchY4GI61erqHAeEv3NaLejDTlSyhmYTgZwopkzkk29T7Vd8lnHV38lv1_tVhr4ct-KXM1CspvJY1edXjyaRjnG1oW_Ah8HGJczFv-4OGNtdbyN303Unn90cEc5I7u4DFXZp_gQcjrOOlP6KcNctfKvUXuR9JQNhyBgzxIZmXYpSlBCKmZWRruh7bMH8XmKYem1Vb6a1jRU7UeIegdKEXgxuHXFEgbBbTpK3JZCxRZzBYpg_RnUSKMXr0gHKLsZT_ryysdzxQD8wYcNefh9s.ThOjKExQtEcxDg01FDa-mUlfUpi7cQ1J81tcD8x_mzQ&dib_tag=se&keywords=medik8&qid=1786748233&sprefix=medik8%2Caps%2C338&sr=8-2&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=6aaf48cd2d4f5262949f0659f699da94&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Medik8 Peptide Serum</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
