@@ -226,13 +226,63 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 39 (Effortlessly Elegant) — so your next new pin should be 40.
+   is 48 (Little Cowgirl) — so your next new pin should be 49.
    ========================================================================= */
 
 const boards = [
   {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
+        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
+      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
+        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "The Essential Wardrobe",
+    pins: [
+      { image: "assets/its-not-just-the-outfit.jpg", title: "It's Not Just the Outfit", addedOrder: 47,
+        products: [ { label: "Shop This Post", url: "its-not-just-the-outfit.html" } ] },
+      { image: "assets/pieces-for-the-in-between.jpg", title: "5 Pieces for the In-Between", addedOrder: 33,
+        products: [ { label: "Shop This Post", url: "pieces-for-the-in-between.html" } ] },
+      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
+        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
+    ]
+  },
+  {
+    name: "Fall Outfits Amazon",
+    pins: [
+      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
+        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
+      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
+        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
+      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
+        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
+    ]
+  },
+  {
+    name: "Color & Trend Edit",
+    pins: [
+      { image: "assets/go-big-or-go-home.jpg", title: "Go Big or Go Home", addedOrder: 45,
+        products: [ { label: "Shop This Post", url: "go-big-or-go-home.html" } ] },
+      { image: "assets/chocolate-brown-3-ways.jpg", title: "Chocolate Brown, 3 Ways", addedOrder: 42,
+        products: [ { label: "Shop This Post", url: "chocolate-brown-3-ways.html" } ] },
+      { image: "assets/glitchy-glam.jpg", title: "Glitchy Glam", addedOrder: 31,
+        products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
+      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
+        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
+    ]
+  },
+  {
     name: "Shop the Look",
     pins: [
+      { image: "assets/spooky-season.jpg", title: "Spooky Season, But Make It Chic", addedOrder: 44,
+        products: [ { label: "Shop This Post", url: "spooky-season.html" } ] },
+      { image: "assets/effortless-summer.jpg", title: "Effortless Summer", addedOrder: 41,
+        products: [ { label: "Shop This Post", url: "effortless-summer.html" } ] },
       { image: "assets/effortlessly-elegant.jpg", title: "Effortlessly Elegant", addedOrder: 39,
         products: [ { label: "Shop This Post", url: "effortlessly-elegant.html" } ] },
       { image: "assets/outfit-on-repeat.jpg", title: "The Outfit You'll Wear On Repeat", addedOrder: 35,
@@ -254,17 +304,25 @@ const boards = [
     ]
   },
   {
-    name: "Fall Outfits Amazon",
+    name: "Amazon Beauty Finds",
     pins: [
-      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
-        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
-      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
-        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
+      { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
+        products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
+      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
+        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
+      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
+        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
+      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
+        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
+      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
+        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
     ]
   },
   {
     name: "Shop the Look - Plus Size",
     pins: [
+      { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
+        products: [ { label: "Shop This Post", url: "the-perfect-wedding-guest-look.html" } ] },
       { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
         products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
       { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
@@ -280,33 +338,6 @@ const boards = [
     ]
   },
   {
-    name: "The Essential Wardrobe",
-    pins: [
-      { image: "assets/pieces-for-the-in-between.jpg", title: "5 Pieces for the In-Between", addedOrder: 33,
-        products: [ { label: "Shop This Post", url: "pieces-for-the-in-between.html" } ] },
-      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
-        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look Kids",
-    pins: [
-      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
-        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
-      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
-    ]
-  },
-  {
-    name: "Color & Trend Edit",
-    pins: [
-      { image: "assets/glitchy-glam.jpg", title: "Glitchy Glam", addedOrder: 31,
-        products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
-      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
-        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
-    ]
-  },
-  {
     name: "Summer Outfits Amazon",
     pins: [
       { image: "assets/european-dinner-look.jpg", title: "The European Dinner Look", addedOrder: 29,
@@ -319,19 +350,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "elevated-athleisure.html" } ] },
       { image: "assets/elevated-tracksuits.jpg", title: "4 Elevated Tracksuits for the Sport-Luxe Trend", addedOrder: 6,
         products: [ { label: "Shop This Post", url: "elevated-tracksuits.html" } ] }
-    ]
-  },
-  {
-    name: "Amazon Beauty Finds",
-    pins: [
-      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
-        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
-      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
-        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
-      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
-        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
-      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
-        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
     ]
   },
   {
