@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>The Balloon-Pant Balance Rule | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/balloon-pant-balance-rule.jpg" alt="The Balloon-Pant Balance Rule">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>The Balloon-Pant Balance Rule</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/dp/B0H1CN47ZD?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.12WH4SIM2H39L&linkCode=tr1&tag=ohmyglow04-20&linkId=amzn1.campaign.12WH4SIM2H39L_1787093512327" target="_blank" rel="noopener sponsored">Shop the Balloon Pants</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0CNRB75YB?coliid=I2BV1GY17LU603&colid=HFZM5RE7WB9E&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=49464360307a50ea1c66e8b2f3ea322d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Cropped Sweater</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0BQBMW767?coliid=I1VOA73H7WSJX&colid=HFZM5RE7WB9E&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=aa18c3fbd9755e1dd9047febb0606530&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Ballet Flats</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0FPLWGSR7?coliid=IEX9MKY6OSKSR&colid=HFZM5RE7WB9E&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=90396e2813ee506b1f385bab4798c7a7&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Shoulder Bag</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0GK5N8D5Y?coliid=IHV85ON4HBYL3&colid=HFZM5RE7WB9E&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=6904852811187dc5916ec026fb4a84ec&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Layered Necklace</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0C6LRNF4P?coliid=I39J0WMI3WZZ79&colid=HFZM5RE7WB9E&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=eafd5fd68d04c92dc617b9647af7cffb&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Earrings</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
