@@ -226,59 +226,17 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 48 (Little Cowgirl) — so your next new pin should be 49.
+   is 53 (Cozy Nights, Chic Vibes) — so your next new pin should be 54.
    ========================================================================= */
 
 const boards = [
   {
-    name: "Shop the Look Kids",
-    pins: [
-      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
-        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
-      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
-        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
-      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
-    ]
-  },
-  {
-    name: "The Essential Wardrobe",
-    pins: [
-      { image: "assets/its-not-just-the-outfit.jpg", title: "It's Not Just the Outfit", addedOrder: 47,
-        products: [ { label: "Shop This Post", url: "its-not-just-the-outfit.html" } ] },
-      { image: "assets/pieces-for-the-in-between.jpg", title: "5 Pieces for the In-Between", addedOrder: 33,
-        products: [ { label: "Shop This Post", url: "pieces-for-the-in-between.html" } ] },
-      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
-        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
-    ]
-  },
-  {
-    name: "Fall Outfits Amazon",
-    pins: [
-      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
-        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
-      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
-        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
-      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
-        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
-    ]
-  },
-  {
-    name: "Color & Trend Edit",
-    pins: [
-      { image: "assets/go-big-or-go-home.jpg", title: "Go Big or Go Home", addedOrder: 45,
-        products: [ { label: "Shop This Post", url: "go-big-or-go-home.html" } ] },
-      { image: "assets/chocolate-brown-3-ways.jpg", title: "Chocolate Brown, 3 Ways", addedOrder: 42,
-        products: [ { label: "Shop This Post", url: "chocolate-brown-3-ways.html" } ] },
-      { image: "assets/glitchy-glam.jpg", title: "Glitchy Glam", addedOrder: 31,
-        products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
-      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
-        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
-    ]
-  },
-  {
     name: "Shop the Look",
     pins: [
+      { image: "assets/cozy-nights-chic-vibes.jpg", title: "Cozy Nights, Chic Vibes", addedOrder: 53,
+        products: [ { label: "Shop This Post", url: "cozy-nights-chic-vibes.html" } ] },
+      { image: "assets/balloon-pant-balance-rule.jpg", title: "The Balloon-Pant Balance Rule", addedOrder: 50,
+        products: [ { label: "Shop This Post", url: "the-balloon-pant-balance-rule.html" } ] },
       { image: "assets/spooky-season.jpg", title: "Spooky Season, But Make It Chic", addedOrder: 44,
         products: [ { label: "Shop This Post", url: "spooky-season.html" } ] },
       { image: "assets/effortless-summer.jpg", title: "Effortless Summer", addedOrder: 41,
@@ -304,8 +262,19 @@ const boards = [
     ]
   },
   {
+    name: "Timeless Accessories",
+    pins: [
+      { image: "assets/bug-jewelry-edit.jpg", title: "The Bug Jewelry Edit", addedOrder: 52,
+        products: [ { label: "Shop This Post", url: "the-bug-jewelry-edit.html" } ] },
+      { image: "assets/investment-bag.jpg", title: "The Structured Handbag: One Investment Piece", addedOrder: 4,
+        products: [ { label: "Shop This Post", url: "one-investment-piece.html" } ] }
+    ]
+  },
+  {
     name: "Amazon Beauty Finds",
     pins: [
+      { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
+        products: [ { label: "Shop This Post", url: "the-90s-manicure-is-back.html" } ] },
       { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
         products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
       { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
@@ -316,6 +285,54 @@ const boards = [
         products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
       { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
         products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
+    ]
+  },
+  {
+    name: "Fall Outfits Amazon",
+    pins: [
+      { image: "assets/3-accessory-fall-refresh.jpg", title: "The 3-Accessory Fall Refresh", addedOrder: 49,
+        products: [ { label: "Shop This Post", url: "the-3-accessory-fall-refresh.html" } ] },
+      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
+        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
+      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
+        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
+      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
+        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
+        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
+      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
+        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "The Essential Wardrobe",
+    pins: [
+      { image: "assets/its-not-just-the-outfit.jpg", title: "It's Not Just the Outfit", addedOrder: 47,
+        products: [ { label: "Shop This Post", url: "its-not-just-the-outfit.html" } ] },
+      { image: "assets/pieces-for-the-in-between.jpg", title: "5 Pieces for the In-Between", addedOrder: 33,
+        products: [ { label: "Shop This Post", url: "pieces-for-the-in-between.html" } ] },
+      { image: "assets/capsule-wardrobe.jpg", title: "The Capsule Summer Wardrobe", addedOrder: 18,
+        products: [ { label: "Shop This Post", url: "capsule-summer-wardrobe.html" } ] }
+    ]
+  },
+  {
+    name: "Color & Trend Edit",
+    pins: [
+      { image: "assets/go-big-or-go-home.jpg", title: "Go Big or Go Home", addedOrder: 45,
+        products: [ { label: "Shop This Post", url: "go-big-or-go-home.html" } ] },
+      { image: "assets/chocolate-brown-3-ways.jpg", title: "Chocolate Brown, 3 Ways", addedOrder: 42,
+        products: [ { label: "Shop This Post", url: "chocolate-brown-3-ways.html" } ] },
+      { image: "assets/glitchy-glam.jpg", title: "Glitchy Glam", addedOrder: 31,
+        products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
+      { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
+        products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
     ]
   },
   {
@@ -365,13 +382,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "scent-stacking.html" } ] },
       { image: "assets/soft-glow.jpg", title: "Soft Glow Finishers: How to Add Luminosity", addedOrder: 8,
         products: [ { label: "Shop This Post", url: "soft-glow-finishers.html" } ] }
-    ]
-  },
-  {
-    name: "Timeless Accessories",
-    pins: [
-      { image: "assets/investment-bag.jpg", title: "The Structured Handbag: One Investment Piece", addedOrder: 4,
-        products: [ { label: "Shop This Post", url: "one-investment-piece.html" } ] }
     ]
   }
 ];
