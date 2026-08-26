@@ -226,10 +226,46 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 53 (Cozy Nights, Chic Vibes) — so your next new pin should be 54.
+   is 55 (Which Transitional Jacket Do You Need?) — so your next new pin should be 56.
    ========================================================================= */
 
 const boards = [
+  {
+    name: "Fall Outfits Amazon",
+    pins: [
+      { image: "assets/transitional-jacket.jpg", title: "Which Transitional Jacket Do You Need?", addedOrder: 55,
+        products: [ { label: "Shop This Post", url: "which-transitional-jacket.html" } ] },
+      { image: "assets/3-accessory-fall-refresh.jpg", title: "The 3-Accessory Fall Refresh", addedOrder: 49,
+        products: [ { label: "Shop This Post", url: "the-3-accessory-fall-refresh.html" } ] },
+      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
+        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
+      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
+        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
+      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
+        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/effortless-fall-style.jpg", title: "Effortless Fall Style", addedOrder: 54,
+        products: [ { label: "Shop This Post", url: "effortless-fall-style.html" } ] },
+      { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
+        products: [ { label: "Shop This Post", url: "the-perfect-wedding-guest-look.html" } ] },
+      { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
+        products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
+      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
+        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
+      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
+        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
   {
     name: "Shop the Look",
     pins: [
@@ -288,19 +324,6 @@ const boards = [
     ]
   },
   {
-    name: "Fall Outfits Amazon",
-    pins: [
-      { image: "assets/3-accessory-fall-refresh.jpg", title: "The 3-Accessory Fall Refresh", addedOrder: 49,
-        products: [ { label: "Shop This Post", url: "the-3-accessory-fall-refresh.html" } ] },
-      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
-        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
-      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
-        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
-      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
-        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
-    ]
-  },
-  {
     name: "Shop the Look Kids",
     pins: [
       { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
@@ -333,25 +356,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "glitchy-glam.html" } ] },
       { image: "assets/dockside-americana.jpg", title: "Dockside Americana", addedOrder: 22,
         products: [ { label: "Shop This Post", url: "dockside-americana.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
-        products: [ { label: "Shop This Post", url: "the-perfect-wedding-guest-look.html" } ] },
-      { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
-        products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
-      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
-        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
-      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
-        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
-      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
-      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
-      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
     ]
   },
   {
