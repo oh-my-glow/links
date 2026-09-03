@@ -226,10 +226,79 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 55 (Which Transitional Jacket Do You Need?) — so your next new pin should be 56.
+   is 60 (3 Pieces That Give You the Equestrian Look) — so your next new pin should be 61.
    ========================================================================= */
 
 const boards = [
+  {
+    name: "Shop the Look",
+    pins: [
+      { image: "assets/equestrian-look.jpg", title: "3 Pieces That Give You the Equestrian Look", addedOrder: 60,
+        products: [ { label: "Shop This Post", url: "3-pieces-equestrian-look.html" } ] },
+      { image: "assets/effortless-elegance.jpg", title: "Effortless Elegance", addedOrder: 59,
+        products: [ { label: "Shop This Post", url: "effortless-elegance.html" } ] },
+      { image: "assets/cozy-nights-chic-vibes.jpg", title: "Cozy Nights, Chic Vibes", addedOrder: 53,
+        products: [ { label: "Shop This Post", url: "cozy-nights-chic-vibes.html" } ] },
+      { image: "assets/balloon-pant-balance-rule.jpg", title: "The Balloon-Pant Balance Rule", addedOrder: 50,
+        products: [ { label: "Shop This Post", url: "the-balloon-pant-balance-rule.html" } ] },
+      { image: "assets/spooky-season.jpg", title: "Spooky Season, But Make It Chic", addedOrder: 44,
+        products: [ { label: "Shop This Post", url: "spooky-season.html" } ] },
+      { image: "assets/effortless-summer.jpg", title: "Effortless Summer", addedOrder: 41,
+        products: [ { label: "Shop This Post", url: "effortless-summer.html" } ] },
+      { image: "assets/effortlessly-elegant.jpg", title: "Effortlessly Elegant", addedOrder: 39,
+        products: [ { label: "Shop This Post", url: "effortlessly-elegant.html" } ] },
+      { image: "assets/outfit-on-repeat.jpg", title: "The Outfit You'll Wear On Repeat", addedOrder: 35,
+        products: [ { label: "Shop This Post", url: "outfit-you-will-wear-on-repeat.html" } ] },
+      { image: "assets/halloween-looks.jpg", title: "Halloween Looks", addedOrder: 27,
+        products: [ { label: "Shop This Post", url: "halloween-looks.html" } ] },
+      { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
+        products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
+      { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
+        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ] },
+      { image: "assets/elegant-green-dress.jpg", title: "Effortlessly Elegant Green Dress", addedOrder: 13,
+        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ] },
+      { image: "assets/effortlessly-chic.jpg", title: "Effortlessly Chic", addedOrder: 9,
+        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ] },
+      { image: "assets/effortless-style.jpg", title: "Effortless Style, Every Day", addedOrder: 7,
+        products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
+      { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
+        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/little-details-big-charm.jpg", title: "Little Details, Big Charm", addedOrder: 58,
+        products: [ { label: "Shop This Post", url: "little-details-big-charm.html" } ] },
+      { image: "assets/tiny-style-big-cuteness.jpg", title: "Tiny Style, Big Cuteness", addedOrder: 56,
+        products: [ { label: "Shop This Post", url: "tiny-style-big-cuteness.html" } ] },
+      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
+        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
+      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
+        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "Amazon Beauty Finds",
+    pins: [
+      { image: "assets/finger-wave-revival.jpg", title: "The Finger Wave Revival", addedOrder: 57,
+        products: [ { label: "Shop This Post", url: "the-finger-wave-revival.html" } ] },
+      { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
+        products: [ { label: "Shop This Post", url: "the-90s-manicure-is-back.html" } ] },
+      { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
+        products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
+      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
+        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
+      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
+        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
+      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
+        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
+      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
+        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
+    ]
+  },
   {
     name: "Fall Outfits Amazon",
     pins: [
@@ -267,71 +336,12 @@ const boards = [
     ]
   },
   {
-    name: "Shop the Look",
-    pins: [
-      { image: "assets/cozy-nights-chic-vibes.jpg", title: "Cozy Nights, Chic Vibes", addedOrder: 53,
-        products: [ { label: "Shop This Post", url: "cozy-nights-chic-vibes.html" } ] },
-      { image: "assets/balloon-pant-balance-rule.jpg", title: "The Balloon-Pant Balance Rule", addedOrder: 50,
-        products: [ { label: "Shop This Post", url: "the-balloon-pant-balance-rule.html" } ] },
-      { image: "assets/spooky-season.jpg", title: "Spooky Season, But Make It Chic", addedOrder: 44,
-        products: [ { label: "Shop This Post", url: "spooky-season.html" } ] },
-      { image: "assets/effortless-summer.jpg", title: "Effortless Summer", addedOrder: 41,
-        products: [ { label: "Shop This Post", url: "effortless-summer.html" } ] },
-      { image: "assets/effortlessly-elegant.jpg", title: "Effortlessly Elegant", addedOrder: 39,
-        products: [ { label: "Shop This Post", url: "effortlessly-elegant.html" } ] },
-      { image: "assets/outfit-on-repeat.jpg", title: "The Outfit You'll Wear On Repeat", addedOrder: 35,
-        products: [ { label: "Shop This Post", url: "outfit-you-will-wear-on-repeat.html" } ] },
-      { image: "assets/halloween-looks.jpg", title: "Halloween Looks", addedOrder: 27,
-        products: [ { label: "Shop This Post", url: "halloween-looks.html" } ] },
-      { image: "assets/spooky-nights.jpg", title: "Spooky Nights, Sweet Dreams", addedOrder: 24,
-        products: [ { label: "Shop This Post", url: "spooky-nights-sweet-dreams.html" } ] },
-      { image: "assets/chic-power-look.jpg", title: "The Chic Power Look", addedOrder: 15,
-        products: [ { label: "Shop This Post", url: "chic-power-look.html" } ] },
-      { image: "assets/elegant-green-dress.jpg", title: "Effortlessly Elegant Green Dress", addedOrder: 13,
-        products: [ { label: "Shop This Post", url: "effortlessly-elegant-green-dress.html" } ] },
-      { image: "assets/effortlessly-chic.jpg", title: "Effortlessly Chic", addedOrder: 9,
-        products: [ { label: "Shop This Post", url: "effortlessly-chic.html" } ] },
-      { image: "assets/effortless-style.jpg", title: "Effortless Style, Every Day", addedOrder: 7,
-        products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
-      { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
-        products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
-    ]
-  },
-  {
     name: "Timeless Accessories",
     pins: [
       { image: "assets/bug-jewelry-edit.jpg", title: "The Bug Jewelry Edit", addedOrder: 52,
         products: [ { label: "Shop This Post", url: "the-bug-jewelry-edit.html" } ] },
       { image: "assets/investment-bag.jpg", title: "The Structured Handbag: One Investment Piece", addedOrder: 4,
         products: [ { label: "Shop This Post", url: "one-investment-piece.html" } ] }
-    ]
-  },
-  {
-    name: "Amazon Beauty Finds",
-    pins: [
-      { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
-        products: [ { label: "Shop This Post", url: "the-90s-manicure-is-back.html" } ] },
-      { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
-        products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
-      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
-        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
-      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
-        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
-      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
-        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
-      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
-        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look Kids",
-    pins: [
-      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
-        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
-      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
-        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
-      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
     ]
   },
   {
