@@ -226,13 +226,17 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 60 (3 Pieces That Give You the Equestrian Look) — so your next new pin should be 61.
+   is 65 (The Desk-to-Dinner Power Look) — so your next new pin should be 66.
    ========================================================================= */
 
 const boards = [
   {
     name: "Shop the Look",
     pins: [
+      { image: "assets/desk-to-dinner-power-look.jpg", title: "The Desk-to-Dinner Power Look", addedOrder: 65,
+        products: [ { label: "Shop This Post", url: "the-desk-to-dinner-power-look.html" } ] },
+      { image: "assets/flared-jeans-ballet-heels.jpg", title: "Get the Look: Flared Jeans + Ballet Heels", addedOrder: 63,
+        products: [ { label: "Shop This Post", url: "get-the-look-flared-jeans-ballet-heels.html" } ] },
       { image: "assets/equestrian-look.jpg", title: "3 Pieces That Give You the Equestrian Look", addedOrder: 60,
         products: [ { label: "Shop This Post", url: "3-pieces-equestrian-look.html" } ] },
       { image: "assets/effortless-elegance.jpg", title: "Effortless Elegance", addedOrder: 59,
@@ -266,23 +270,12 @@ const boards = [
     ]
   },
   {
-    name: "Shop the Look Kids",
-    pins: [
-      { image: "assets/little-details-big-charm.jpg", title: "Little Details, Big Charm", addedOrder: 58,
-        products: [ { label: "Shop This Post", url: "little-details-big-charm.html" } ] },
-      { image: "assets/tiny-style-big-cuteness.jpg", title: "Tiny Style, Big Cuteness", addedOrder: 56,
-        products: [ { label: "Shop This Post", url: "tiny-style-big-cuteness.html" } ] },
-      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
-        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
-      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
-        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
-      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
-        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
-    ]
-  },
-  {
     name: "Amazon Beauty Finds",
     pins: [
+      { image: "assets/nail-trend-fall.jpg", title: "The Nail Trend Replacing Bare Nails This Fall", addedOrder: 64,
+        products: [ { label: "Shop This Post", url: "nail-trend-replacing-bare-nails.html" } ] },
+      { image: "assets/coffee-gourmand.jpg", title: "Which Coffee Gourmand Fits You?", addedOrder: 61,
+        products: [ { label: "Shop This Post", url: "which-coffee-gourmand.html" } ] },
       { image: "assets/finger-wave-revival.jpg", title: "The Finger Wave Revival", addedOrder: 57,
         products: [ { label: "Shop This Post", url: "the-finger-wave-revival.html" } ] },
       { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
@@ -300,23 +293,10 @@ const boards = [
     ]
   },
   {
-    name: "Fall Outfits Amazon",
-    pins: [
-      { image: "assets/transitional-jacket.jpg", title: "Which Transitional Jacket Do You Need?", addedOrder: 55,
-        products: [ { label: "Shop This Post", url: "which-transitional-jacket.html" } ] },
-      { image: "assets/3-accessory-fall-refresh.jpg", title: "The 3-Accessory Fall Refresh", addedOrder: 49,
-        products: [ { label: "Shop This Post", url: "the-3-accessory-fall-refresh.html" } ] },
-      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
-        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
-      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
-        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
-      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
-        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
-    ]
-  },
-  {
     name: "Shop the Look - Plus Size",
     pins: [
+      { image: "assets/outfit-everyone-will-ask.jpg", title: "The Outfit Everyone Will Ask About", addedOrder: 62,
+        products: [ { label: "Shop This Post", url: "the-outfit-everyone-will-ask-about.html" } ] },
       { image: "assets/effortless-fall-style.jpg", title: "Effortless Fall Style", addedOrder: 54,
         products: [ { label: "Shop This Post", url: "effortless-fall-style.html" } ] },
       { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
@@ -333,6 +313,36 @@ const boards = [
         products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
       { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
         products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look Kids",
+    pins: [
+      { image: "assets/little-details-big-charm.jpg", title: "Little Details, Big Charm", addedOrder: 58,
+        products: [ { label: "Shop This Post", url: "little-details-big-charm.html" } ] },
+      { image: "assets/tiny-style-big-cuteness.jpg", title: "Tiny Style, Big Cuteness", addedOrder: 56,
+        products: [ { label: "Shop This Post", url: "tiny-style-big-cuteness.html" } ] },
+      { image: "assets/little-cowgirl.jpg", title: "Little Cowgirl", addedOrder: 48,
+        products: [ { label: "Shop This Post", url: "little-cowgirl.html" } ] },
+      { image: "assets/little-moments-big-style.jpg", title: "Little Moments, Big Style", addedOrder: 32,
+        products: [ { label: "Shop This Post", url: "little-moments-big-style.html" } ] },
+      { image: "assets/mini-style.jpg", title: "Mini Style, Major Charm", addedOrder: 19,
+        products: [ { label: "Shop This Post", url: "mini-style-major-charm.html" } ] }
+    ]
+  },
+  {
+    name: "Fall Outfits Amazon",
+    pins: [
+      { image: "assets/transitional-jacket.jpg", title: "Which Transitional Jacket Do You Need?", addedOrder: 55,
+        products: [ { label: "Shop This Post", url: "which-transitional-jacket.html" } ] },
+      { image: "assets/3-accessory-fall-refresh.jpg", title: "The 3-Accessory Fall Refresh", addedOrder: 49,
+        products: [ { label: "Shop This Post", url: "the-3-accessory-fall-refresh.html" } ] },
+      { image: "assets/ankle-or-knee-high.jpg", title: "Ankle or Knee-High?", addedOrder: 46,
+        products: [ { label: "Shop This Post", url: "ankle-or-knee-high.html" } ] },
+      { image: "assets/wool-or-shearling.jpg", title: "Wool or Shearling?", addedOrder: 38,
+        products: [ { label: "Shop This Post", url: "wool-or-shearling.html" } ] },
+      { image: "assets/poetcore-edit.jpg", title: "The Poetcore Edit", addedOrder: 36,
+        products: [ { label: "Shop This Post", url: "the-poetcore-edit.html" } ] }
     ]
   },
   {
