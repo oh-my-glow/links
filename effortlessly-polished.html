@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- =========================================================================
+     1) Troque o texto entre <title> pelo nome do produto/look
+     ========================================================================= -->
+<title>Effortlessly Polished | Oh, My Glow!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6F0;
+    --champagne:#EFE0C0;
+    --blush:#F3DEE1;
+    --rose:#B4586A;
+    --rose-dark:#8F3F50;
+    --caramel:#BE7C42;
+    --espresso:#3A2A22;
+    --espresso-soft:#6B564C;
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--espresso);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  .top-logo{
+    display:block;
+    width:120px;
+    margin:28px auto 0;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    font-size:.78rem;
+    color:var(--espresso-soft);
+    margin:10px 0 20px;
+  }
+
+  main{
+    max-width:420px;
+    margin:0 auto;
+    padding:0 20px 60px;
+  }
+
+  .pin-photo{
+    width:100%;
+    aspect-ratio:2/3;
+    object-fit:cover;
+    border-radius:var(--radius);
+    background:var(--blush);
+    box-shadow:0 6px 20px rgba(58,42,34,.12);
+    display:block;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.3;
+    margin:22px 0 6px;
+    text-align:center;
+  }
+  .subtitle{
+    text-align:center;
+    color:var(--espresso-soft);
+    font-size:.85rem;
+    margin:0 0 26px;
+  }
+
+  .shop-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 16px;
+    border-radius:12px;
+    background:var(--rose);
+    color:#fff;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.2px;
+    margin-bottom:10px;
+    transition:background .15s ease;
+  }
+  .shop-btn:hover{background:var(--rose-dark);}
+  .shop-btn.secondary{
+    background:var(--champagne);
+    color:var(--espresso);
+  }
+  .shop-btn.secondary:hover{background:#e5d3a8;}
+
+  .disclosure{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--espresso-soft);
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+
+<img class="top-logo" src="assets/logo.png" alt="Oh, My Glow!">
+<a class="back-link" href="index.html">← Ver todos os pins</a>
+
+<main>
+  <!-- =========================================================================
+       3) Troque a imagem do produto/look aqui
+       ========================================================================= -->
+  <img class="pin-photo" src="assets/effortlessly-polished.jpg" alt="Effortlessly Polished: One Look, Endless Compliments">
+
+  <!-- =========================================================================
+       4) Troque o título aqui
+       ========================================================================= -->
+  <h1>Effortlessly Polished</h1>
+  <p class="subtitle">Tap below to shop each piece</p>
+
+  <!-- =========================================================================
+       5) Troque os botões: um <a> por produto. Copie/cole o bloco <a> pra
+       adicionar mais produtos, ou apague os que não precisar.
+       ========================================================================= -->
+  <a class="shop-btn" href="https://www.amazon.com/dp/B0FT74LLG2?coliid=I10SV2FTCWR0I0&colid=HFZM5RE7WB9E&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=5630b3649b349ae2329d8c6d093f7aa0&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Floral Sweater</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0CGWVH899?coliid=I2K4HICCHG2B95&colid=HFZM5RE7WB9E&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=16cbd5388f998128ee7fe55f463b2419&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Faux Leather Shorts</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B072Y4CDPQ?coliid=I2HH0TF0YV15TS&colid=HFZM5RE7WB9E&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=7b49193e8ff6b4b3198c0634f10c68c3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Knee-High Boots</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0D4Q9N9KT?coliid=I12S8JFLDDWCCW&colid=HFZM5RE7WB9E&th=1&psc=1&linkCode=ll2&tag=ohmyglow04-20&linkId=e9fc760522b166b5f67d06cd0abff3bf&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Tights</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Milan-Chiva-Designer-Handbags-MC-400GN/dp/B0D2GXY9R3?crid=TXS5SGABK3EF&dib=eyJ2IjoiMSJ9.Dv_P7cQwJjqxbI6pwhsaCTxbUdudYBOUt1n7tmHVdEZlC21mrGZKYsEdiR5lAlWFEfVdv8foisGiIYihnHxX7zYk-FYeWm0rCluZPgoTAbTZasrPhHUrl-HlUo8hYgYlssWvOWcsKpzzz0FOHs74OLZkQOHg5K9yAYS5p8NqPCorrG3UF18Bc6vS-Xh_SfWnfJ9PA19pHyg-cR5_WksNrTZEZc-3baLLWkQtcI36J-ZxVcA9EruN7j5ct7FbG43YRvaSLBCPaz6jDLGCQrY40plBIU2tHF5gNH30YTm0tY0.4KNWSkuStqKJTBX4pSgN3WVm5bPLTSgZeQcQCpAJqd8&dib_tag=se&keywords=milan%2Bchiva%2Bpurse&qid=1789432510&sprefix=milan%2Bchiva%2Bpurse%2Caps%2C263&sr=8-1&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=45a8c5c4ca615268611cc39e86adec54&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Handbag</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/Flower-Statement-Earrings-Plated-Irregular/dp/B0FGX6ZHXM?pd_rd_w=Q7Aij&content-id=amzn1.sym.3d5af8a3-cce9-42ea-9ba5-183bb8c2673b&pf_rd_p=3d5af8a3-cce9-42ea-9ba5-183bb8c2673b&pf_rd_r=83E64H09C9HRRRK3CPYB&pd_rd_wg=ByqWm&pd_rd_r=063c57f4-96ba-4887-a966-20458630db58&pd_rd_i=B0FGX6ZHXM&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=694bb27624a61c0a05cd99e8311965ad&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Flower Earrings</a>
+  <a class="shop-btn secondary" href="https://www.amazon.com/dp/B0DLKRHDRN?coliid=IWM646BKT0R8H&colid=HFZM5RE7WB9E&th=1&linkCode=ll2&tag=ohmyglow04-20&linkId=2404973feaf64d345040b2deafb04a48&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">Shop the Necklace</a>
+
+  <p class="disclosure">As an Amazon Associate, Oh, My Glow! earns from qualifying purchases.</p>
+</main>
+
+</body>
+</html>
