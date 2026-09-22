@@ -226,13 +226,69 @@
    ORDER: each pin has "addedOrder" — a number that just needs to be
    HIGHER than the last one you used. The newest pin (highest number)
    always shows first in "All Pins", automatically. The current highest
-   is 65 (The Desk-to-Dinner Power Look) — so your next new pin should be 66.
+   is 70 (3 Small Fall Beauty Upgrades That Change Everything) — so your next new pin should be 71.
    ========================================================================= */
 
 const boards = [
   {
+    name: "Amazon Beauty Finds",
+    pins: [
+      { image: "assets/3-fall-beauty-upgrades.jpg", title: "3 Small Fall Beauty Upgrades That Change Everything", addedOrder: 70,
+        products: [ { label: "Shop This Post", url: "3-small-fall-beauty-upgrades.html" } ] },
+      { image: "assets/your-skin-but-better.jpg", title: "Your Skin But Better: The Fall Makeup Trend", addedOrder: 67,
+        products: [ { label: "Shop This Post", url: "your-skin-but-better.html" } ] },
+      { image: "assets/wet-look-lip.jpg", title: "The Wet-Look Lip Is Back", addedOrder: 66,
+        products: [ { label: "Shop This Post", url: "the-wet-look-lip-is-back.html" } ] },
+      { image: "assets/nail-trend-fall.jpg", title: "The Nail Trend Replacing Bare Nails This Fall", addedOrder: 64,
+        products: [ { label: "Shop This Post", url: "nail-trend-replacing-bare-nails.html" } ] },
+      { image: "assets/coffee-gourmand.jpg", title: "Which Coffee Gourmand Fits You?", addedOrder: 61,
+        products: [ { label: "Shop This Post", url: "which-coffee-gourmand.html" } ] },
+      { image: "assets/finger-wave-revival.jpg", title: "The Finger Wave Revival", addedOrder: 57,
+        products: [ { label: "Shop This Post", url: "the-finger-wave-revival.html" } ] },
+      { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
+        products: [ { label: "Shop This Post", url: "the-90s-manicure-is-back.html" } ] },
+      { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
+        products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
+      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
+        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
+      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
+        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
+      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
+        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
+      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
+        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
+    ]
+  },
+  {
+    name: "Shop the Look - Plus Size",
+    pins: [
+      { image: "assets/effortlessly-expensive-look.jpg", title: "The Effortlessly Expensive Look", addedOrder: 69,
+        products: [ { label: "Shop This Post", url: "the-effortlessly-expensive-look.html" } ] },
+      { image: "assets/outfit-everyone-will-ask.jpg", title: "The Outfit Everyone Will Ask About", addedOrder: 62,
+        products: [ { label: "Shop This Post", url: "the-outfit-everyone-will-ask-about.html" } ] },
+      { image: "assets/effortless-fall-style.jpg", title: "Effortless Fall Style", addedOrder: 54,
+        products: [ { label: "Shop This Post", url: "effortless-fall-style.html" } ] },
+      { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
+        products: [ { label: "Shop This Post", url: "the-perfect-wedding-guest-look.html" } ] },
+      { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
+        products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
+      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
+        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
+      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
+        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
+      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
+        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
+      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
+        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
+      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
+        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
+    ]
+  },
+  {
     name: "Shop the Look",
     pins: [
+      { image: "assets/effortlessly-polished.jpg", title: "Effortlessly Polished", addedOrder: 68,
+        products: [ { label: "Shop This Post", url: "effortlessly-polished.html" } ] },
       { image: "assets/desk-to-dinner-power-look.jpg", title: "The Desk-to-Dinner Power Look", addedOrder: 65,
         products: [ { label: "Shop This Post", url: "the-desk-to-dinner-power-look.html" } ] },
       { image: "assets/flared-jeans-ballet-heels.jpg", title: "Get the Look: Flared Jeans + Ballet Heels", addedOrder: 63,
@@ -267,52 +323,6 @@ const boards = [
         products: [ { label: "Shop This Post", url: "effortless-style.html" } ] },
       { image: "assets/cute-comfortable.jpg", title: "Cute, Comfortable & On-the-Go", addedOrder: 2,
         products: [ { label: "Shop This Post", url: "cute-comfortable-on-the-go.html" } ] }
-    ]
-  },
-  {
-    name: "Amazon Beauty Finds",
-    pins: [
-      { image: "assets/nail-trend-fall.jpg", title: "The Nail Trend Replacing Bare Nails This Fall", addedOrder: 64,
-        products: [ { label: "Shop This Post", url: "nail-trend-replacing-bare-nails.html" } ] },
-      { image: "assets/coffee-gourmand.jpg", title: "Which Coffee Gourmand Fits You?", addedOrder: 61,
-        products: [ { label: "Shop This Post", url: "which-coffee-gourmand.html" } ] },
-      { image: "assets/finger-wave-revival.jpg", title: "The Finger Wave Revival", addedOrder: 57,
-        products: [ { label: "Shop This Post", url: "the-finger-wave-revival.html" } ] },
-      { image: "assets/90s-manicure-is-back.jpg", title: "The '90s Manicure Is Back", addedOrder: 51,
-        products: [ { label: "Shop This Post", url: "the-90s-manicure-is-back.html" } ] },
-      { image: "assets/british-beauty.jpg", title: "British Beauty Worth Discovering", addedOrder: 43,
-        products: [ { label: "Shop This Post", url: "british-beauty.html" } ] },
-      { image: "assets/gua-sha-vs-jade-roller.jpg", title: "Gua Sha vs. Jade Roller", addedOrder: 28,
-        products: [ { label: "Shop This Post", url: "gua-sha-vs-jade-roller.html" } ] },
-      { image: "assets/lace-nails.jpg", title: "Lace Nails", addedOrder: 23,
-        products: [ { label: "Shop This Post", url: "lace-nails.html" } ] },
-      { image: "assets/bag-ready.jpg", title: "4 Bag-Ready Summer Beauty Essentials", addedOrder: 3,
-        products: [ { label: "Shop This Post", url: "bag-ready-summer-essentials.html" } ] },
-      { image: "assets/lip-liner.jpg", title: "The Lip Liner Everyone Is Buying", addedOrder: 1,
-        products: [ { label: "Shop This Post", url: "lip-liner.html" } ] }
-    ]
-  },
-  {
-    name: "Shop the Look - Plus Size",
-    pins: [
-      { image: "assets/outfit-everyone-will-ask.jpg", title: "The Outfit Everyone Will Ask About", addedOrder: 62,
-        products: [ { label: "Shop This Post", url: "the-outfit-everyone-will-ask-about.html" } ] },
-      { image: "assets/effortless-fall-style.jpg", title: "Effortless Fall Style", addedOrder: 54,
-        products: [ { label: "Shop This Post", url: "effortless-fall-style.html" } ] },
-      { image: "assets/wedding-guest-look.jpg", title: "The Perfect Wedding Guest Look", addedOrder: 40,
-        products: [ { label: "Shop This Post", url: "the-perfect-wedding-guest-look.html" } ] },
-      { image: "assets/cozy-never-looked.jpg", title: "Cozy Never Looked This Cute", addedOrder: 37,
-        products: [ { label: "Shop This Post", url: "cozy-never-looked-this-cute.html" } ] },
-      { image: "assets/dress-up-stand-out.jpg", title: "Dress Up. Stand Out.", addedOrder: 30,
-        products: [ { label: "Shop This Post", url: "dress-up-stand-out.html" } ] },
-      { image: "assets/one-look-endless-impact.jpg", title: "One Look, Endless Impact", addedOrder: 26,
-        products: [ { label: "Shop This Post", url: "one-look-endless-impact.html" } ] },
-      { image: "assets/dare-to-stand-out.jpg", title: "Dare to Stand Out", addedOrder: 21,
-        products: [ { label: "Shop This Post", url: "dare-to-stand-out.html" } ] },
-      { image: "assets/chic-confident.jpg", title: "Chic, Confident, Effortlessly You", addedOrder: 12,
-        products: [ { label: "Shop This Post", url: "chic-confident.html" } ] },
-      { image: "assets/effortless-elevated.jpg", title: "Effortless & Elevated", addedOrder: 5,
-        products: [ { label: "Shop This Post", url: "effortless-elevated.html" } ] }
     ]
   },
   {
